@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isAboutUsDropdownOpen, setIsAboutUsDropdownOpen] = useState(false);
 
   const productOptions = [
-    { name: "Kespersky", href: "/products/software" },
+    { name: "Kespersky", href: "/products/kaspersky" },
     { name: "Tenable", href: "/products/hardware" },
     { name: "Microsoft", href: "/products/cloud" },
     { name: "Fortinet", href: "/products/consulting" },
@@ -82,7 +82,7 @@ const Navbar = () => {
             </button>
             {isProductsDropdownOpen && (
               <div
-                className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-50"
+                className="absolute top-full left-0 w-52 bg-white rounded-md shadow-lg py-2 z-50"
                 onMouseEnter={() => setIsProductsDropdownOpen(true)}
                 onMouseLeave={() => setIsProductsDropdownOpen(false)}
               >
@@ -116,7 +116,7 @@ const Navbar = () => {
             </button>
             {isServicesDropdownOpen && (
               <div
-                className="absolute top-full left-0 mt-2 w-52 bg-white rounded-md shadow-lg py-2 z-50"
+                className="absolute top-full left-0 w-52 bg-white rounded-md shadow-lg py-2 z-50"
                 onMouseEnter={() => setIsServicesDropdownOpen(true)}
                 onMouseLeave={() => setIsServicesDropdownOpen(false)}
               >
@@ -150,7 +150,7 @@ const Navbar = () => {
             </button>
             {isPricingDropdownOpen && (
               <div
-                className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-50"
+                className="absolute top-full left-0  w-48 bg-white rounded-md shadow-lg py-2 z-50"
                 onMouseEnter={() => setIsPricingDropdownOpen(true)}
                 onMouseLeave={() => setIsPricingDropdownOpen(false)}
               >
@@ -186,7 +186,7 @@ const Navbar = () => {
             </button>
             {isActivitiesDropdownOpen && (
               <div
-                className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-50"
+                className="absolute top-full left-0 w-48 bg-white rounded-md shadow-lg py-2 z-50"
                 onMouseEnter={() => setIsActivitiesDropdownOpen(true)}
                 onMouseLeave={() => setIsActivitiesDropdownOpen(false)}
               >
@@ -220,7 +220,7 @@ const Navbar = () => {
             </button>
             {isAboutUsDropdownOpen && (
               <div
-                className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-50"
+                className="absolute top-full left-0 w-48 bg-white rounded-md shadow-lg py-2 z-50"
                 onMouseEnter={() => setIsAboutUsDropdownOpen(true)}
                 onMouseLeave={() => setIsAboutUsDropdownOpen(false)}
               >
