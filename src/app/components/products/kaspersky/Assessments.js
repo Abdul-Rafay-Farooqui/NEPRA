@@ -55,7 +55,7 @@ const Assessments = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:w-[33%] flex justify-end items-start mt-8 lg:mt-0 h-full">
+      <div className="w-[50%] lg:w-[33%] flex justify-end items-start mt-8 lg:mt-0 h-full">
         <img
           src="/images/kaspersky.png"
           alt="Kaspersky"

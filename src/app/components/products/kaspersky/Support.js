@@ -65,7 +65,7 @@ const Support = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full lg:w-[35%] flex flex-col justify-start ">
+      <div className="w-full lg:w-[35%] flex flex-col justify-start mt-5 lg:mt-0">
         <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-left">
           Who Can Benefit?
         </h2>
